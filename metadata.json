@@ -1,0 +1,6 @@
+{
+  "name": "MEC Chamet Jarvis",
+  "description": "Beginner-friendly Chamet Diamond Seller assistant with Start/Stop controls, editable PKR diamond price list, fixed reply template, custom alert chime, and native Android notification detection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

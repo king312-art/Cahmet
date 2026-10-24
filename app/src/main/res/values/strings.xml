@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">MEC Chamet Jarvis</string>
+    <string name="notification_listener_label">MEC Chamet Jarvis Notification Detector</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_reply_prices">Reply &amp; Prices</string>
+    <string name="nav_chamet_setup">Chamet Setup</string>
+
+    <!-- Brand & Status -->
+    <string name="brand_subtitle">Chamet Diamond Seller Assistant</string>
+    <string name="status_assistant_on">ASSISTANT ON</string>
+    <string name="status_assistant_off">ASSISTANT OFF</string>
+    <string name="status_on_desc">Monitoring incoming Chamet notifications according to your settings.</string>
+    <string name="status_off_desc">All background monitoring, auto-replies, and alert sounds are completely stopped.</string>
+    <string name="cd_diamond_logo">MEC Chamet Jarvis diamond logo</string>
+    <string name="cd_hero_banner">Glowing emerald and diamond-blue banner</string>
+
+    <!-- Primary Controls -->
+    <string name="btn_start">START</string>
+    <string name="btn_stop">STOP</string>
+    <string name="label_auto_reply">Auto Reply</string>
+    <string name="desc_auto_reply">Reply automatically when Chamet notification supports inline reply, or trigger 1-tap fallback.</string>
+    <string name="label_alert_sound">Alert Sound</string>
+    <string name="desc_alert_sound">Play distinctive diamond chime when a new Chamet message arrives.</string>
+    <string name="btn_test_alert">Test Alert Sound</string>
+    <string name="btn_alert_playing">Ringing… (Press STOP)</string>
+    <string name="btn_preview_reply">Preview Reply</string>
+    <string name="btn_copy_reply">Copy Reply</string>
+    <string name="btn_copied_reply">Copied!</string>
+
+    <!-- Messages & Feedback -->
+    <string name="msg_assistant_started">MEC Chamet Jarvis is now ON.</string>
+    <string name="msg_assistant_stopped">Assistant OFF. Monitoring and alert sounds stopped.</string>
+    <string name="msg_reply_copied">Customer reply copied to clipboard!</string>
+    <string name="msg_template_saved">Greeting, payment details, and template saved!</string>
+    <string name="msg_price_saved">Diamond package saved!</string>
+    <string name="msg_prices_reset">Default PKR diamond price list restored.</string>
+
+    <!-- Reply & Price Editor -->
+    <string name="section_price_list">Editable Diamond Price List</string>
+    <string name="section_price_list_sub">Tap any package to change PKR price or diamond amount.</string>
+    <string name="btn_add_package">Add Package</string>
+    <string name="btn_reset_prices">Reset Defaults</string>
+    <string name="section_reply_template">Fixed Customer Reply Template</string>
+    <string name="label_greeting">Greeting Header</string>
+    <string name="label_payment_numbers">My Saved Payment &amp; Contact Numbers</string>
+    <string name="hint_payment_numbers">e.g. JazzCash / EasyPaisa: 0300-1234567 (Name)</string>
+    <string name="label_closing">Closing Line</string>
+    <string name="btn_save_template">Save Reply Settings</string>
+    <string name="dialog_add_tier_title">Add Diamond Package</string>
+    <string name="dialog_edit_tier_title">Edit Diamond Package</string>
+    <string name="label_price_input">Price (e.g. PKR 750)</string>
+    <string name="label_diamonds_input">Diamonds (e.g. 15,000 diamonds)</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Preview Sheet -->
+    <string name="preview_sheet_title">Customer Reply Preview</string>
+    <string name="preview_sheet_sub">Exact fixed message prepared from your saved prices and payment details:</string>
+
+    <!-- Chamet Integration -->
+    <string name="integration_header">Native Chamet Integration</string>
+    <string name="integration_sub">Safe Android notification detection, direct reply check, and 1-tap Copy Reply fallback.</string>
+    <string name="perm_listener_title">1. Chamet Notification Access</string>
+    <string name="perm_listener_granted">Connected — Ready to detect Chamet notifications</string>
+    <string name="perm_listener_missing">Not Enabled — Required to detect incoming Chamet messages</string>
+    <string name="btn_open_listener_settings">Open Notification Access</string>
+    <string name="perm_post_notif_title">2. Quick-Copy Helper Notification</string>
+    <string name="perm_post_notif_granted">Allowed — One-tap Copy Reply banner enabled</string>
+    <string name="perm_post_notif_missing">Allow notifications so Jarvis can show a 1-tap Copy Reply button</string>
+    <string name="btn_allow_notifications">Allow Helper Alerts</string>
+    <string name="chamet_app_title">3. Chamet App Filter</string>
+    <string name="chamet_installed">Official Chamet app detected on this phone</string>
+    <string name="chamet_not_installed">Chamet app not detected yet (filter strictly locked to Chamet package)</string>
+    <string name="label_target_package">Allowed Chamet Package Name</string>
+    <string name="btn_save_package">Update Filter</string>
+    <string name="honest_notice_title">How Auto-Reply &amp; Fallback Work on Android</string>
+    <string name="honest_notice_body">• Direct Auto-Reply: Sent automatically ONLY when Assistant is ON, Auto Reply is ON, and the incoming Chamet notification includes Android\'s inline Reply action (with a 2-minute anti-duplicate cooldown per chat).\n• Guaranteed Fallback: Many Chamet versions send tap-only push notifications without an inline reply box. Instead of risky screen-clicking, Jarvis immediately plays your Diamond Alert Sound and shows a 1-tap Copy Reply banner so you never message the wrong chat.</string>
+    <string name="simulator_title">Test Detection Pipeline</string>
+    <string name="simulator_desc">Verify how Jarvis handles a new Chamet message right now (respects START/STOP state).</string>
+    <string name="btn_simulate_chamet">Simulate Incoming Chamet Message</string>
+    <string name="activity_log_title">Recent Detection Log</string>
+    <string name="activity_log_empty">No Chamet events logged yet. Press START on the Dashboard to begin monitoring.</string>
+    <string name="btn_clear_logs">Clear</string>
+
+    <!-- Helper Notification -->
+    <string name="notif_channel_name">Chamet Customer Alerts</string>
+    <string name="notif_channel_desc">Alerts you when a Chamet customer messages and provides a one-tap Copy Reply button.</string>
+    <string name="notif_helper_title">New Chamet Message: %1$s</string>
+    <string name="notif_action_copy">Copy Saved Reply</string>
+</resources>
